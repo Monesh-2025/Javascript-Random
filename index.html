@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Completible"content="IE=edge /">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+       <link rel="stylesheet" href="index.css">
+    <title>DD Store</title>
+</head>
+<body>
+
+    <main>
+       <div class="left-side">
+    <div class="swiper">
+     <div class="swiper-wrapper">
+      <div class="swiper-slide">
+         <img src="vignettemobMCL25.avif" alt="" />
+       </div>
+      <div class="swiper-slide">
+         <img src="image 2.jpg" alt="" />
+      </div>
+      <div class="swiper-slide">
+         <img src="image 3.jpeg" alt="" />
+      </div>
+      <div class="swiper-slide">
+         <img src="image 4.webp" alt="" />
+      </div>
+       </div>
+      <div class="swiper-pagination"></div>
+        </div>
+       </div>
+        <div class="right-side">
+        <form action="connect.php" method="POST">
+            <div class="btn-group">
+                <button class="btn">
+                    <ion-icon name="logo-google"></ion-icon>
+                    <span>Sign in with Google</span>
+                </button>
+                <button class="btn">
+                    <ion-icon name="logo-apple"></ion-icon>
+                    <span>Sign in with Apple</span>
+                </button>
+            </div>
+
+            <div class="or">OR</div>
+
+            <label for="firstName">First Name</label>
+            <input type="text" placeholder="F name" id="firstName" name="First Name" required>
+
+            <label for="lastName">Last Name</label>
+            <input type="text" placeholder="L name" id="LastName" name="Last Name" required>
+
+            <label for="email">Email</label>
+            <input type="text" placeholder="Enter the Email"  id="email" required>
+
+            <label for="phone number">Phone number</label>
+            <input type="text" placeholder="number" name="number" required>
+
+            <label for="passward">Passward</label>
+            <input type="passward" placeholder="Enter the passward" name="Passward" required>
+
+            <button type="submit" class="login-btn">Register</button>
+
+            <div class="link">
+                <a href="#">Forget Passward?</a> 
+                <a href="#">Do not have account?</a>
+            </div>
+
+        </form>
+        </div>
+
+</main>
+<script 
+type="module" 
+src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script 
+nomodule
+ src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+ <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>   
+ <script src="app.js"></script>
+</body>
+</html>
+
